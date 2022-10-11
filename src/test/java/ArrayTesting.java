@@ -29,7 +29,7 @@ public class ArrayTesting
 
         assertNull(str);
 
-        fail("Unfinished Method");
+       // fail("Unfinished Method");
 
     }
 
@@ -48,6 +48,24 @@ public class ArrayTesting
        assertEquals(true, result);
        assertTrue(result);
 
+    }
+
+    @Test
+    public void findIndexOutofBound()
+    {
+        ArrayMethods obj = new ArrayMethods();
+
+        assertThrows(ArrayIndexOutOfBoundsException.class, ()-> obj.printArray(new int[]{1,2},4));
+    }
+
+    @Test
+    public  void findIndexMultiple()
+    {
+        ArrayMethods obj = new ArrayMethods();
+        assertAll(
+               ()-> assertEquals(1,obj.findIndex(new int[]{1,2},2)),
+               ()-> assertEquals(0,obj.findIndex(new int[]{1}, 1))
+        );
     }
 
 }
