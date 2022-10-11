@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="949f7934-81a7-4c71-a50d-8d1008014691" name="Changes" comment="Basic Assertions and its methods">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" afterDir="false" />
+    <list default="true" id="949f7934-81a7-4c71-a50d-8d1008014691" name="Changes" comment="Test Life Cycle Hooks and all">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mockito/Mock/StudentServiceMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mockito/Mock/StudentServiceMockitoAnnotationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/studentTestings/GetScoresTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/TestLifeCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,44 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.StudentServiceMockTest">
+    <configuration name="GetScoresTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_basics1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studentTestings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="studentTestings" />
+      <option name="MAIN_CLASS_NAME" value="studentTestings.GetScoresTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_basics1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mockito.Mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mockito.Mock" />
+      <option name="MAIN_CLASS_NAME" value="Mockito.Mock.StudentServiceMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentServiceMockTest" />
+        <item itemvalue="JUnit.GetScoresTesting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665465818337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test Life Cycle Hooks and all">
+      <created>1665469848689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665469848689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Assertions" />
     <MESSAGE value="Basic Assertions and its methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Assertions and its methods" />
+    <MESSAGE value="Test Life Cycle Hooks and all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Life Cycle Hooks and all" />
   </component>
 </project>
